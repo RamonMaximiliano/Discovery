@@ -1,13 +1,14 @@
 body {
     background-color:rgb(216, 212, 212);
+    box-sizing: border-box;
 }
-
 
 .main-header {
     background-color: rgb(27, 114, 53);
     text-align:center;
     height: 120px;
     color:white;
+    margin: -8px;
     padding-top:20px;
 }
 
@@ -16,11 +17,15 @@ body {
     text-align:center;
     height: 120px;
     color:white;
+    margin: -8px;
 }
 .main-section {
-    width: 450px;
+    /*essa fuhnction in CSS deixa responsivo*/
+    width: min(90vw, 500px);
+    /*min-width: 50%;
+    max-width: 50%;*/
     margin: auto;
-
+    margin-top:-90px;
 }
 
 .firstparagr {
@@ -29,35 +34,38 @@ body {
 }
 
 .div1 {
-    padding:20px;
+    padding:15px;
+    line-height: 25px;
     color:black;
     background-color: white;
     border-radius:3px;
     margin: 10px;
 }
-
 
 .div2 {
-    padding:20px;
+    padding:15px ;
+    line-height: 25px;
     color:black;
     background-color: white;
     border-radius:3px;
     margin: 10px;
 }
 
-
 .div3 {
-    padding:20px;
+    padding:15px;
+    line-height: 25px;
     color:white;
     background-color: rgb(23, 197, 90);
     border-radius:3px;
     margin: 10px;
 }
 
-.div4 {
-    padding:20px;
-    color:black;
-    background-color: white;
-    border-radius:3px;
-    margin: 10px;
+
+
+.titllecard {
+    font-size:12px;
+}
+
+.titllenumber {
+    font-size:18px;
 }
